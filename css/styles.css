@@ -322,14 +322,14 @@ body {
 /* ============ FLORES ANIMADAS - POSICIÓN AJUSTADA ============ */
 .flowers {
     position: relative;
-    transform: scale(0.6) translateY(30vh); /* Reducido el tamaño y bajado significativamente */
+    transform: scale(0.8) translateY(25vh); /* Aumentado de 0.6 a 0.8 */
     z-index: 2;
-    margin-top: 25vh; /* Espacio adicional desde el reproductor */
+    margin-top: 20vh; /* Reducido el margen */
 }
 
 .flower {
     position: absolute;
-    bottom: 0; /* Cambiado de 15vmin a 0 para que estén más abajo */
+    bottom: 0;
     transform-origin: bottom center;
     z-index: 50;
 }
@@ -1132,13 +1132,13 @@ body {
     }
     
     .flowers {
-        transform: scale(0.45) translateY(25vh);
-        margin-top: 20vh;
+        transform: scale(0.7) translateY(15vh); /* Aumentado de 0.45 a 0.7 */
+        margin-top: 15vh; /* Reducido margen */
     }
     
     .message-for-friend {
         font-size: 2.5vmin;
-        top: 40%;
+        top: 35%; /* Ajustado para dar más espacio a las flores */
         padding: 12px 20px;
     }
 }
@@ -1156,13 +1156,13 @@ body {
     }
     
     .flowers {
-        transform: scale(0.35) translateY(20vh);
-        margin-top: 15vh;
+        transform: scale(0.6) translateY(10vh); /* Aumentado de 0.35 a 0.6 */
+        margin-top: 10vh; /* Reducido margen */
     }
     
     .message-for-friend {
         font-size: 3vmin;
-        top: 38%;
+        top: 32%; /* Ajustado para móviles */
         max-width: 90%;
         padding: 10px 15px;
     }
