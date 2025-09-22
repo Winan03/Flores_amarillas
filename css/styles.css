@@ -1132,13 +1132,13 @@ body {
     }
     
     .flowers {
-        transform: scale(0.7) translateY(15vh); /* Aumentado de 0.45 a 0.7 */
-        margin-top: 15vh; /* Reducido margen */
+        transform: scale(0.9) translateY(10vh); /* Aumentado de 0.7 a 0.9 */
+        margin-top: 12vh;
     }
     
     .message-for-friend {
         font-size: 2.5vmin;
-        top: 35%; /* Ajustado para dar más espacio a las flores */
+        top: 32%; /* Ajustado para dar más espacio a las flores */
         padding: 12px 20px;
     }
 }
@@ -1156,13 +1156,13 @@ body {
     }
     
     .flowers {
-        transform: scale(0.6) translateY(10vh); /* Aumentado de 0.35 a 0.6 */
-        margin-top: 10vh; /* Reducido margen */
+        transform: scale(0.8) translateY(8vh); /* Aumentado de 0.6 a 0.8 */
+        margin-top: 8vh;
     }
     
     .message-for-friend {
         font-size: 3vmin;
-        top: 32%; /* Ajustado para móviles */
+        top: 30%; /* Ajustado para móviles pequeños */
         max-width: 90%;
         padding: 10px 15px;
     }
